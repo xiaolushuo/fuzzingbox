@@ -8,7 +8,7 @@ from time import sleep
 
 def runWebTest():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    print("fuzzing - 无前提下直接进行黑盒0day挖掘,选择你的目标:  \n 1: 谷歌 \n 2: 火狐")
+    print("fuzzing - 无前提下直接进行黑盒挖掘,选择你的目标:  \n 1: 谷歌 \n 2: 火狐")
     browserType = input('>>')
     timeout = input(
         "设置响应时间，建议区间30以上:")
