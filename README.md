@@ -1,5 +1,11 @@
 # fuzzing for blackbox - 无前提下直接进行黑盒挖掘
-
+```
+暂时支持对象:
+>1: 谷歌(chrome) 
+>2: 火狐(firefox) 
+>3: 洋葱(tor) 
+>4: 显灵(epiphany)
+```
 ```
 1.>快速测试：
 在"generate.sh"文件中修改"python generator.py --output_dir ../recurve/ --no_of_files 999"中最后的生成数目调小进行
