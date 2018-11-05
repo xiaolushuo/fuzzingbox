@@ -7,7 +7,7 @@ from time import sleep
 
 def runWebTest():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    print("fuzzing - 无前提下直接进行黑盒,选择你的目标:  \n 1: 谷歌 \n 2: 火狐 \n 3: 洋葱")
+    print("fuzzingbox - 启动成功，黑盒提示！选择你要进行测试的目标:  \n 1: 谷歌 \n 2: 火狐 \n 3: 洋葱 \n 4:Epiphany ")
     browserType = input('>>')
     timeout = input(
         "设置响应时间，建议区间30以上::")
@@ -46,14 +46,16 @@ def getBrowserApplication(browserType):
         processCommand = ['firefox', '--new-instance']
     elif browserType == 3:
         processCommand = ['start-tor-browser']
+    elif browserType == 4:
+        processCommand = ['epiphany-browser']
     else:
         processCommand = None
     return processCommand
 
 
 def checkValidBrowserType(browserType):
-    if browserType not in [1, 2, 3]:
-        print("你的本机没有安装这款浏览器，我真的搞不定啊!")
+    if browserType not in [1, 2, 3, 4]:
+        print("你的本机没有安装这款浏览器，黑盒摆不平这件事!")
         sys.exit(0)
 
 
