@@ -18,7 +18,7 @@ python fuzzing.py //开始奔跑!
 5.>漏洞报告地址:
 1. https://bugs.chromium.org/p/chromium/issues/list //谷歌
 2. https://bugzilla.mozilla.org/enter_­bug.cgi?product=Firefox //火狐
-3. wait...
+3. http://www.theonionrouter.com/about/contact.html.en#email //洋葱
 ```
 
 
