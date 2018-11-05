@@ -52,8 +52,8 @@ def getBrowserApplication(browserType):
 
 
 def checkValidBrowserType(browserType):
-    if browserType not in [1, 2]:
-        print("你进行了错误的选择!")
+    if browserType not in [1, 2, 3]:
+        print("你的本机没有安装这款浏览器，我真的搞不定啊!")
         sys.exit(0)
 
 
