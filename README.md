@@ -1,4 +1,4 @@
-# fuzzing - 无前提下直接进行黑盒挖掘
+# fuzzing for blackbox - 无前提下直接进行黑盒挖掘
 
 ```
 1.>快速测试：
