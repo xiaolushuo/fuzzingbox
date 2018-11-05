@@ -16,8 +16,9 @@ python fuzzing.py //开始奔跑!
 核心是使用了谷歌的domato项目，然后我们创造了这个小小的自动化机器人，这不妨碍它成为一个伟大的python代码，在linux下可以快速零门槛的帮助任何人进行黑盒测试找到Crash，如果你找到了请告诉我。
 
 5.>漏洞报告地址:
-1. https://bugs.chromium.org/p/chromium/issues/list
-2. https://bugzilla.mozilla.org/enter_­bug.cgi?product=Firefox
+1. https://bugs.chromium.org/p/chromium/issues/list //谷歌
+2. https://bugzilla.mozilla.org/enter_­bug.cgi?product=Firefox //火狐
+3. wait...
 ```
 
 
