@@ -7,7 +7,7 @@ from time import sleep
 
 def runWebTest():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    print("fuzzingbox - 启动成功，黑盒提示！选择你要进行测试的目标:  \n 1: 谷歌 \n 2: 火狐 \n 3: 洋葱 \n 4:Epiphany ")
+    print("fuzzingbox - 启动成功，黑盒提示！选择你要进行测试的目标:  \n 1: 谷歌(chrome) \n 2: 火狐(firefox) \n 3: 洋葱(tor) \n 4: 显灵(epiphany) ")
     browserType = input('>>')
     timeout = input(
         "设置响应时间，建议区间30以上::")
